@@ -95,6 +95,10 @@ body section {
     padding: 50px;
 }
 
+#plan {
+    padding: 0px 100px;
+}
+
 .donationPlan_flexBox {
     display: flex;
     text-align: left;
@@ -102,21 +106,21 @@ body section {
 }
 
 .food {
-    width: 30%;
+    width: 32%;
     padding: 40px 20px;
     margin: 10px;
     background-color: rgba(196, 255, 255, 0.349);
 }
 
 .family {
-    width: 30%;
+    width: 32%;
     padding: 40px 20px;
     margin: 10px;
     background-color: rgba(231, 179, 218, 0.274);
 }
 
 .education {
-    width: 30%;
+    width: 32%;
     padding: 40px 20px;
     margin: 10px;
     background-color: rgba(255, 207, 149, 0.315);
