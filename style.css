@@ -13,7 +13,7 @@ body section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     color: white;
     text-align: center;
     padding-top: 150px;
@@ -79,6 +79,7 @@ body section {
     padding: 50px 0px;
     font-weight: 300px;
     color: rgb(194, 189, 189);
+    margin-bottom: 150px;
 }
 
 #hr {
@@ -200,4 +201,49 @@ footer h1 {
 
 footer p {
     font-size: 15px;
+}
+
+
+.payment_content {
+    display: flex;
+    padding-left: 250px;
+}
+
+.payment_content img {
+    margin: 70px;
+    width: 150px;
+}
+
+#bkash {
+    background-image: url(icons/bkash_blk.png);
+    background-size: 150px;
+}
+
+#bkash:hover {
+    background-image: url(icons/bkash.png);
+    background-size: 150px;
+}
+
+#nagad {
+    background-image: url(icons/nagad_blk.png);
+    background-size: 150px;
+}
+
+#nagad:hover {
+    background-image: url(icons/nagad.png);
+    background-size: 150px;
+}
+
+#upay {
+    background-image: url(icons/upay_blk.png);
+    background-size: 150px;
+}
+
+#upay:hover {
+    background-image: url(icons/upay.png);
+    background-size: 150px;
+}
+
+.payment {
+    text-align: center;
 }
