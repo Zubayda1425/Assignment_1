@@ -2,33 +2,31 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
+    width: 100 vw;
 }
 
-#section_1 {
-    background-image: url(images/donation2.jpg);
+#letsHelp {
+    background-image: linear-gradient(rgba(10, 10, 10, 0.363), rgb(0, 0, 0)), url(images/donation2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
-    height: 667px;
-}
-
-.under_sec_1 {
-    background-image: linear-gradient(rgba(128, 128, 128, 0.24), rgb(0, 0, 0));
-    width: 100%;
+    height: 100vh;
     color: white;
     text-align: center;
     padding-top: 150px;
 }
 
-.under_sec_1 h1 {
+
+.heading {
     font-weight: 700;
     font-size: 60px;
     margin-bottom: 0;
 }
 
-.under_sec_1 p {
-    padding-bottom: 20px;
+.heading_small {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
 }
 
 .link {
@@ -37,5 +35,109 @@ body {
     padding: 15px 30px;
     background-color: rgb(192, 56, 56);
     border-radius: 5px;
+}
 
+.Donate_Amount {
+    text-align: center;
+    margin: 100px 150px 35px;
+}
+
+
+.content {
+    color: grey;
+    font-size: 16px;
+}
+
+.tk_amount {
+    display: flex;
+    padding-left: 300px;
+}
+
+.tk_amount h1 {
+    padding: 30px 20px;
+    font-size: 30px;
+    font-weight: 700px;
+    color: rgb(75, 73, 73);
+    margin: 10px;
+    background-color: rgba(151, 148, 148, 0.13);
+    border-radius: 5px;
+}
+
+#selected_amount {
+    border: 2.5px solid rgb(236, 95, 95);
+    margin: 10px;
+    background-color: rgba(223, 174, 182, 0.596);
+    border-radius: 5px;
+    color: rgb(236, 95, 95);
+}
+
+.donation_submit {
+    text-align: center;
+    padding: 50px 0px;
+    font-weight: 300px;
+    color: rgb(194, 189, 189);
+}
+
+#hr {
+    width: 80%;
+    height: 1px;
+    border: none;
+    background-color: rgb(206, 202, 202);
+    margin-bottom: 40px;
+}
+
+.donationPlan {
+    text-align: center;
+    padding: 50px;
+}
+
+.donationPlan_flexBox {
+    display: flex;
+    text-align: left;
+    padding: 2px 130px;
+}
+
+.food {
+    width: 30%;
+    padding: 40px 20px;
+    margin: 10px;
+    background-color: rgba(196, 255, 255, 0.349);
+}
+
+.family {
+    width: 30%;
+    padding: 40px 20px;
+    margin: 10px;
+    background-color: rgba(231, 179, 218, 0.274);
+}
+
+.education {
+    width: 30%;
+    padding: 40px 20px;
+    margin: 10px;
+    background-color: rgba(255, 207, 149, 0.315);
+}
+
+.donate_history {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+}
+
+.history1 {
+    display: flex;
+    padding: 3% 0%;
+}
+
+.history_content {
+    width: 50%;
+    text-align: left;
+    text-align: bottom;
+
+}
+
+.history_content p {
+    padding-right: 20%;
+    font-size: 18px;
 }
